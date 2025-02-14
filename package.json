@@ -1,0 +1,17 @@
+{
+  "name": "codepromptfu-blog",
+  "version": "1.0.0",
+  "description": "CodePromptFu.com blog",
+  "scripts": {
+    "dev": "hugo server --buildDrafts",
+    "build": "hugo --minify",
+    "start": "hugo server",
+    "tailwind:watch": "tailwindcss -i ./themes/tailwind-theme/assets/css/main.css -o ./themes/tailwind-theme/assets/css/style.css --watch",
+    "tailwind:build": "tailwindcss -i ./themes/tailwind-theme/assets/css/main.css -o ./themes/tailwind-theme/assets/css/style.css --minify"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1"
+  }
+}

@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply text-gray-900;
+    }
+    h1 {
+        @apply text-4xl font-bold mb-4;
+    }
+    h2 {
+        @apply text-3xl font-bold mb-3;
+    }
+    h3 {
+        @apply text-2xl font-bold mb-2;
+    }
+    a {
+        @apply text-blue-600 hover:text-blue-800;
+    }
+    p {
+        @apply mb-4;
+    }
+    ul {
+        @apply list-disc list-inside mb-4;
+    }
+}
+
+body {
+  color: #222;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 1rem;
+  max-width: 768px;
+}
+
+header {
+  border-bottom: 1px solid #222;
+  margin-bottom: 1rem;
+}
+
+footer {
+  border-top: 1px solid #222;
+  margin-top: 1rem;
+}
+
+a {
+  color: #00e;
+  text-decoration: none;
+}
