@@ -11,17 +11,13 @@ theme = 'tailwind-theme'
 
 [menu]
   [[menu.main]]
-    name = "Home"
-    url = "/"
+    name = "CodePromptFu Home"
+    url = "https://www.codepromptfu.com"
     weight = 1
-  [[menu.main]]
-    name = "Posts"
-    url = "/posts/"
-    weight = 2
   [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 3
+    weight = 2
 
 [taxonomies]
   tag = "tags"
