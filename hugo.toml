@@ -1,6 +1,6 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My Hugo Blog'
+title = 'CodePromptFu Blog'
 theme = 'tailwind-theme'
 
 [markup]
