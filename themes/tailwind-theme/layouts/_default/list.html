@@ -1,8 +1,16 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
+  <h1 class="text-2xl sm:text-4xl font-bold mb-2 text-center">{{ .Title }}</h1>
   {{ .Content }}
   {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
+  <div class="rounded-lg shadow-md max-w-5xl p-6 mb-4">
+    <div class="flex justify-between items-center">
+      <div>
+        <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      </div>
+      <div class="text-gray-600">
+        <time>{{ .Date.Format "January 2, 2006" }}</time>
+      </div>
+    </div>
+  </div>
   {{ end }}
 {{ end }}
