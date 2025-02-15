@@ -9,12 +9,12 @@ theme = 'tailwind-theme'
   [markup.goldmark.renderer]
     unsafe = true
 
-[menu]
-  [[menu.main]]
-    name = "CodePromptFu Home"
+[menus]
+  [[menus.main]]
+    name = "CodePromptFu"
     url = "https://www.codepromptfu.com"
     weight = 1
-  [[menu.main]]
+  [[menus.main]]
     name = "About"
     url = "/about/"
     weight = 2
@@ -22,3 +22,8 @@ theme = 'tailwind-theme'
 [taxonomies]
   tag = "tags"
   category = "categories"
+
+[params]
+  [params.author]
+    url = "https://x.com/debamitro"
+    name = "@debamitro"
