@@ -6,6 +6,9 @@
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     {{ $style := resources.Get "css/style.css" }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}">
+    {{ with .OutputFormats.Get "rss" -}}
+       {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+    {{ end }}
     {{ partial "gtag.html" }}
 </head>
 <body class="bg-white min-h-screen">

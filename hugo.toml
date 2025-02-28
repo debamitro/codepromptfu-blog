@@ -1,7 +1,8 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://blog.codepromptfu.com/'
 languageCode = 'en-us'
 title = 'CodePromptFu Blog'
 theme = 'tailwind-theme'
+copyright = '© 2025 Debamitro Chakraborti'
 
 [markup]
   [markup.highlight]
