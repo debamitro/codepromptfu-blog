@@ -11,7 +11,11 @@ The [CodePromptFu](https://www.codepromptfu.com) website was created sometime in
 
 ### prompt
 
-“can you generate a web app where users can post LLM prompts and upvote/downvote them. use nextjs as the framework”
+{{< prompt >}}
+can you generate a web app where users can post LLM prompts and upvote/downvote them. use nextjs as the framework
+{{< /prompt >}}
+
+### result
 
 ![Screenshot 2025-01-08 at 11.40.57 AM.png](/images/Screenshot_2025-01-08_at_11.40.57_AM.png)
 
@@ -19,7 +23,9 @@ The [CodePromptFu](https://www.codepromptfu.com) website was created sometime in
 
 ### prompt
 
-“can you add tags to the posts, and also a way to see the posts by tags”
+{{< prompt >}}
+can you add tags to the posts, and also a way to see the posts by tags
+{{< /prompt >}}
 
 ![Screenshot 2025-01-08 at 11.55.00 AM.png](/images/Screenshot_2025-01-08_at_11.55.00_AM.png)
 
@@ -27,7 +33,11 @@ The [CodePromptFu](https://www.codepromptfu.com) website was created sometime in
 
 ### prompt
 
-“add a feature that lets you run the prompt and view the output. run button needs to be added. and capture openai output. we have a .env file now with OPENAI_API_KEY that you can use for queries to openai. add a collapse button after the output gets shown”
+{{< prompt >}}
+add a feature that lets you run the prompt and view the output. run button needs to be added. and capture openai output. we have a .env file now with OPENAI_API_KEY that you can use for queries to openai. add a collapse button after the output gets shown
+{{< /prompt >}}
+
+### result
 
 ![Screenshot 2025-01-08 at 2.14.41 PM.png](/images/Screenshot_2025-01-08_at_2.14.41_PM.png)
 
@@ -35,7 +45,11 @@ The [CodePromptFu](https://www.codepromptfu.com) website was created sometime in
 
 ### prompt
 
-“can you add an about page which explains what this site is about”
+{{< prompt >}}
+can you add an about page which explains what this site is about
+{{< /prompt >}}
+
+### result
 
 ![Screenshot 2025-01-08 at 2.41.59 PM.png](/images/Screenshot_2025-01-08_at_2.41.59_PM.png)
 
@@ -43,7 +57,11 @@ The [CodePromptFu](https://www.codepromptfu.com) website was created sometime in
 
 ### prompt
 
-“can you move the form which allows adding new prompts to a different page. the home page should only show the tags and the prompts”
+{{< prompt >}}
+can you move the form which allows adding new prompts to a different page. the home page should only show the tags and the prompts
+{{< /prompt >}}
+
+### result
 
 ![Screenshot 2025-01-09 at 2.22.12 PM.png](/images/Screenshot_2025-01-09_at_2.22.12_PM.png)
 

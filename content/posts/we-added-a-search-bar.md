@@ -17,9 +17,9 @@ The first iteration looked a bit wonky.
 
 So we asked Windsurf
 
-```
+{{< prompt >}}
 can you make the search bar and the search button the same height
-```
+{{< /prompt >}}
 
 ### Slightly better
 
@@ -29,9 +29,9 @@ Some Tailwind classes were added and removed, and we got
 
 Now we needed a little finishing. We said
 
-```
+{{< prompt >}}
 can you make the search bar wider
-```
+{{< /prompt >}}
 
 ### The final result
 
