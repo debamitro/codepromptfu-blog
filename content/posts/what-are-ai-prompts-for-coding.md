@@ -2,7 +2,7 @@
 title = "What are AI prompts for coding?"
 date = 2025-02-09T00:00:00-05:00
 draft = false
-tags = ["vibe-coding"]
+tags = ["vibe-coding", "ai", "coding tools"]
 +++
 
 The most recent explanation comes from this post on X:

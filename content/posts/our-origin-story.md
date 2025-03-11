@@ -2,7 +2,7 @@
 title = 'Our Origin Story'
 date = 2025-02-15T17:32:56-05:00
 draft = false
-tags = ["prompts"]
+tags = ["prompts", "ai", "windsurf"]
 +++
 
 The [CodePromptFu](https://www.codepromptfu.com) website was created sometime in early January 2025. Most of the development has been prompt-based, in [Windsurf](https://codeium.com/windsurf). This is how the first few hours of its development looked like.
