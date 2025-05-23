@@ -24,6 +24,15 @@
     ul {
         @apply list-disc list-inside mb-4;
     }
+    table {
+        @apply w-full border-collapse mb-4;
+    }
+    th, td {
+        @apply border border-gray-300 px-4 py-2;
+    }
+    th {
+        @apply bg-gray-100 font-semibold text-left;
+    }
 }
 
 body {
