@@ -5,7 +5,11 @@ draft = false
 tags = ["ai", "coding", "tools"]
 +++
 
-A few months ago, this [post on X](https://x.com/johnrushx/status/1886610636144333272) enlightened us about the number of AI coding tools available. The following is an attempt to re-visit the list and look at them from a higher altitude. We have also added a few tools that are not in the original list.
+A few months ago, this [post on X](https://x.com/johnrushx/status/1886610636144333272) enlightened us about the number of AI coding tools available. 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;ve tried all (24) AI coding agents &amp; IDEs 😵‍💫<br><br>[Cursor, Softgen, Windsurf, Wrapifai, Copilot, Lovable, Bolt, v0, Replit, MarsX, Claude, AmazonQ, Pear, Devin, Github Spark, IDX, Webdraw, Tempo, Cline, Continue, Databutton, Base44, Qodo, Aider]<br><br>The Vibe Coding giga-thread:</p>&mdash; John Rush (@johnrushx) <a href="https://twitter.com/johnrushx/status/1886610636144333272?ref_src=twsrc%5Etfw">February 4, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+The following is an attempt to re-visit the list and look at them from a higher altitude. We have also added a few tools that are not in the original list.
 
 ## Extensions/Plugins
 
